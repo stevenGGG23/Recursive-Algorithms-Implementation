@@ -1,7 +1,7 @@
 # Recursive Algorithms Implementation 
 A comprehensive C++ program demonstrating four essential recursive algorithms for mathematical computation, array analysis, and image processing applications.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements four recursive functions that solve common computational problems:
 1. **Mathematical Series Computation** - Sum of consecutive integers
@@ -9,7 +9,7 @@ This project implements four recursive functions that solve common computational
 3. **Pattern Recognition** - Longest positive subsequences
 4. **Image Processing** - Connected component detection (Eagle Detection)
 
-## 🔧 Features
+## Features
 
 - **Pure Recursive Implementation** - All algorithms use recursion without iteration
 - **Efficient Array Processing** - Handles both positive and negative integer arrays
@@ -17,7 +17,7 @@ This project implements four recursive functions that solve common computational
 - **Connected Component Detection** - Identifies and counts connected regions in 2D grids
 - **Robust Error Handling** - File validation and boundary checking
 
-## 📁 File Structure
+## File Structure
 
 ```
 Project_2/
@@ -27,7 +27,7 @@ Project_2/
 └── README.md         # This file
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - C++ compiler (g++, clang++, or Visual Studio)
@@ -42,7 +42,7 @@ g++ Project_2.cpp -o Project_2
 ./Project_2
 ```
 
-## 📊 Input Format
+## Input Format
 
 ### Eagle Detection Data File (`eagle.dat`)
 ```
@@ -61,7 +61,7 @@ g++ Project_2.cpp -o Project_2
 - Following lines: Grid data (0 = empty, 1-9 = filled cells)
 - Multiple grids can be processed sequentially
 
-## 💻 Sample Output
+## Sample Output
 
 ```
 Problem 1 - Sum Function:
@@ -97,7 +97,7 @@ An eagle size 8 is found.
 2 eagle(s) found in the picture.
 ```
 
-## 🔍 Algorithm Details
+## Algorithm Details
 
 ### 1. Sum Function
 **Purpose**: Calculates sum of integers from 1 to n
@@ -119,7 +119,7 @@ An eagle size 8 is found.
 **Method**: Depth-first search with recursive flood fill
 **Use Case**: Image processing, object detection, computer vision applications
 
-## 🎯 Why This Project Matters
+## Why This Project Matters
 
 ### Educational Value
 - **Recursion Mastery**: Demonstrates proper recursive thinking and implementation
@@ -138,7 +138,7 @@ An eagle size 8 is found.
 - 2D array manipulation and boundary checking
 - Memory management and efficient data processing
 
-## 📈 Performance Characteristics
+## Performance Characteristics
 
 | Algorithm | Time Complexity | Space Complexity | Use Case |
 |-----------|----------------|------------------|----------|
@@ -147,14 +147,4 @@ An eagle size 8 is found.
 | Longest | O(n²) | O(n) | Pattern detection |
 | FindEagle | O(m×n) | O(m×n) | Image processing |
 
-## 🤝 Contributing
 
-This project was completed as part of CSCI 3110 coursework. The implementation focuses on educational value and demonstrates core recursive programming concepts.
-
-## 📝 License
-
-This project is for educational purposes as part of computer science curriculum.
-
----
-
-*Developed as part of CSCI 3110 - Data Structures and Algorithms*
